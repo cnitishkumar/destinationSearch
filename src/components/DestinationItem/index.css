@@ -1,0 +1,27 @@
+.list-item {
+  list-style: none;
+}
+
+.image {
+  min-width: 150px;
+  min-height: 120px;
+  border-radius: 10px;
+  display: flex;
+  width: 20vw;
+  max-width: 350px;
+  max-height: 180px;
+  margin: 5px;
+}
+
+.city {
+  font-size: 15px;
+  font-family: 'roboto';
+  margin-left: 5px;
+  flex-wrap: nowrap;
+  font-family: 'Open-Sans';
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 40vw;
+  }
+}
